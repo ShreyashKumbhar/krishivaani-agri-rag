@@ -1,0 +1,26 @@
+# Version control / local environment
+.git
+.gitignore
+.env
+.venv
+venv
+
+# Python caches
+**/__pycache__
+**/*.pyc
+**/.pytest_cache
+
+# Frontend dependencies and build output (the frontend stage builds it)
+frontend/node_modules
+frontend/dist
+
+# Local runtime state (mounted as a volume instead)
+backend/data/agrivaani.db
+backend/data/agrivaani.db-wal
+backend/data/agrivaani.db-shm
+backend/data/test_agrivaani.db
+backend/data/tts_cache
+backend/data/uploads
+
+# Large documentation images are not needed in the runtime image
+docs/screenshots

@@ -1,0 +1,28 @@
+services:
+  krishivaani:
+    build: .
+    image: krishivaani:1.0.0
+    container_name: krishivaani
+    ports:
+      - "8000:8000"
+    env_file:
+      # Optional: the demo runs on built-in defaults without a .env file.
+      - path: .env
+        required: false
+    environment:
+      # Absolute container path overrides the project-relative .env value.
+      AGRI_DB_PATH: /app/backend/data/agrivaani.db
+    volumes:
+      - ./backend/data:/app/backend/data
+      - ./docs:/app/docs
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=5)"
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped

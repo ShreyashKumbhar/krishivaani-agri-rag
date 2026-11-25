@@ -1,0 +1,17 @@
+# Core backend (CPU-only, no GPU required)
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.34,<0.35
+pydantic>=2.10,<3
+python-multipart>=0.0.20
+python-dotenv>=1.0
+httpx>=0.28,<0.29
+numpy>=2.0,<3
+pypdf>=5.0
+edge-tts>=7.0
+
+# Tests
+pytest>=8.3,<9
+
+# Optional extras (not installed by default; see ../README.md for demo scope)
+# sentence-transformers>=3.0        # optional neural multilingual embeddings
+# faster-whisper>=1.0               # optional server-side ASR

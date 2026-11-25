@@ -1,0 +1,41 @@
+%% KrishiVaani system architecture (standalone Mermaid source)
+flowchart LR
+    Farmer["Farmer<br/>voice or text"] -->|"Hindi / Marathi / English"| SPA["React SPA<br/>Farmer Assistant · Knowledge · History · Evaluation · Admin"]
+    Admin["Administrator / expert"] --> SPA
+    SPA -->|"JSON / multipart"| API["FastAPI<br/>/api/*"]
+
+    subgraph Pipeline["Assistant pipeline"]
+        U["Language ID<br/>intent + entities"]
+        R["Hybrid retrieval<br/>BM25 + dense + RRF + rerank"]
+        G["Confidence gate<br/>ANSWER / ASK_TO_REPEAT / REFUSE"]
+        C["Grounded composer<br/>template or optional LLM"]
+        T["Tools<br/>mandi + weather"]
+    end
+
+    API --> U
+    U --> R
+    R --> G
+    G --> C
+    C --> API
+    U --> T
+    T --> G
+
+    DB[("SQLite<br/>documents · chunks · queries<br/>feedback · glossary · eval · audit")]
+    R <--> DB
+    T -->|"optional live"| Agmarknet["data.gov.in Agmarknet"]
+    T -->|"live with fallback"| OpenMeteo["Open-Meteo"]
+    API -->|"edge-tts"| TTS["Microsoft Edge voices"]
+    SPA -->|"Web Speech API"| BrowserASR["Browser ASR"]
+    SPA -->|"SpeechSynthesis fallback"| BrowserTTS["Browser TTS"]
+
+    subgraph Governance["Knowledge governance"]
+        Upload["Upload TXT / MD / PDF"] --> Pending["Pending review"]
+        Pending -->|approve| Approved["Approved"]
+        Pending -->|reject| Rejected["Rejected"]
+        Approved --> Index["Indexed for retrieval"]
+        Rejected -->|re-approve| Approved
+        Approved -->|delete| Removed["Removed"]
+    end
+
+    Approved --> R
+    API --> Governance

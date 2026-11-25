@@ -1,0 +1,750 @@
+[
+  {
+    "term_en": "cotton",
+    "term_hi": "कपास",
+    "term_mr": "कापूस",
+    "category": "crop",
+    "aliases": [
+      "cotton",
+      "kapas",
+      "kapus",
+      "कापस",
+      "कापसाची",
+      "कापसाचे",
+      "कापसात",
+      "कापसावर"
+    ]
+  },
+  {
+    "term_en": "soybean",
+    "term_hi": "सोयाबीन",
+    "term_mr": "सोयाबीन",
+    "category": "crop",
+    "aliases": [
+      "soyabean",
+      "soya",
+      "bhat",
+      "सोयाबीनवर",
+      "सोयाबीनचा",
+      "सोयाबीनची",
+      "सोयाबीनमध्ये"
+    ]
+  },
+  {
+    "term_en": "onion",
+    "term_hi": "प्याज",
+    "term_mr": "कांदा",
+    "category": "crop",
+    "aliases": [
+      "pyaz",
+      "kanda",
+      "onion",
+      "कांद्या",
+      "कांद्याचा",
+      "कांद्याची",
+      "कांद्यावर",
+      "कांद्यात"
+    ]
+  },
+  {
+    "term_en": "sugarcane",
+    "term_hi": "गन्ना",
+    "term_mr": "ऊस",
+    "category": "crop",
+    "aliases": [
+      "ganna",
+      "sugarcane",
+      "ऊसाला",
+      "ऊसाची",
+      "ऊसाचे"
+    ]
+  },
+  {
+    "term_en": "tomato",
+    "term_hi": "टमाटर",
+    "term_mr": "टोमॅटो",
+    "category": "crop",
+    "aliases": [
+      "tamatar",
+      "tomato",
+      "टोमॅटोवर",
+      "टोमॅटोची"
+    ]
+  },
+  {
+    "term_en": "wheat",
+    "term_hi": "गेहूं",
+    "term_mr": "गहू",
+    "category": "crop",
+    "aliases": [
+      "gehu",
+      "gahu",
+      "wheat",
+      "गहू",
+      "गव्हाची"
+    ]
+  },
+  {
+    "term_en": "rice",
+    "term_hi": "धान",
+    "term_mr": "भात",
+    "category": "crop",
+    "aliases": [
+      "paddy",
+      "dhan",
+      "bhat",
+      "rice",
+      "भाताची",
+      "भातावर"
+    ]
+  },
+  {
+    "term_en": "grapes",
+    "term_hi": "अंगूर",
+    "term_mr": "द्राक्ष",
+    "category": "crop",
+    "aliases": [
+      "angoor",
+      "draksha",
+      "grapes",
+      "द्राक्षावर",
+      "द्राक्षाची",
+      "द्राक्षाचे"
+    ]
+  },
+  {
+    "term_en": "pomegranate",
+    "term_hi": "अनार",
+    "term_mr": "डाळिंब",
+    "category": "crop",
+    "aliases": [
+      "anar",
+      "dalimb",
+      "pomegranate"
+    ]
+  },
+  {
+    "term_en": "jowar",
+    "term_hi": "ज्वार",
+    "term_mr": "ज्वारी",
+    "category": "crop",
+    "aliases": [
+      "jowar",
+      "jwari",
+      "sorghum"
+    ]
+  },
+  {
+    "term_en": "maize",
+    "term_hi": "मक्का",
+    "term_mr": "मका",
+    "category": "crop",
+    "aliases": [
+      "makka",
+      "maka",
+      "corn"
+    ]
+  },
+  {
+    "term_en": "tur",
+    "term_hi": "अरहर",
+    "term_mr": "तूर",
+    "category": "crop",
+    "aliases": [
+      "arhar",
+      "tur",
+      "pigeon pea",
+      "तुरीची",
+      "तुरीवर"
+    ]
+  },
+  {
+    "term_en": "gram",
+    "term_hi": "चना",
+    "term_mr": "हरभरा",
+    "category": "crop",
+    "aliases": [
+      "chana",
+      "harbhara",
+      "chickpea",
+      "हरभऱ्याची",
+      "हरभऱ्यावर"
+    ]
+  },
+  {
+    "term_en": "groundnut",
+    "term_hi": "मूंगफली",
+    "term_mr": "भुईमूग",
+    "category": "crop",
+    "aliases": [
+      "moongphali",
+      "bhuimug",
+      "peanut"
+    ]
+  },
+  {
+    "term_en": "pink bollworm",
+    "term_hi": "गुलाबी सुंडी",
+    "term_mr": "गुलाबी अळी",
+    "category": "pest",
+    "aliases": [
+      "bollworm",
+      "sundi",
+      "ali"
+    ]
+  },
+  {
+    "term_en": "whitefly",
+    "term_hi": "सफेद मक्खी",
+    "term_mr": "पांढरी माशी",
+    "category": "pest",
+    "aliases": [
+      "white fly",
+      "safed makkhi",
+      "pandhari mashi"
+    ]
+  },
+  {
+    "term_en": "jassid",
+    "term_hi": "हरा तेला",
+    "term_mr": "हिरवी तुडतुडे",
+    "category": "pest",
+    "aliases": [
+      "jassid",
+      "tela",
+      "tudtude"
+    ]
+  },
+  {
+    "term_en": "thrips",
+    "term_hi": "थ्रिप्स",
+    "term_mr": "थ्रिप्स",
+    "category": "pest",
+    "aliases": [
+      "thrips",
+      "thrip"
+    ]
+  },
+  {
+    "term_en": "girdle beetle",
+    "term_hi": "तना छेदक",
+    "term_mr": "खोड कुट्टक",
+    "category": "pest",
+    "aliases": [
+      "girdle beetle",
+      "tana chhedak",
+      "khod kuttak"
+    ]
+  },
+  {
+    "term_en": "semilooper",
+    "term_hi": "अर्धवृत्ताकार इल्ली",
+    "term_mr": "अर्धचंद्र अळी",
+    "category": "pest",
+    "aliases": [
+      "semilooper",
+      "semilooper caterpillar"
+    ]
+  },
+  {
+    "term_en": "tobacco caterpillar",
+    "term_hi": "तंबाकू इल्ली",
+    "term_mr": "तंबाखू अळी",
+    "category": "pest",
+    "aliases": [
+      "tobacco caterpillar",
+      "tambaku illi"
+    ]
+  },
+  {
+    "term_en": "stem fly",
+    "term_hi": "तना मक्खी",
+    "term_mr": "खोड माशी",
+    "category": "pest",
+    "aliases": [
+      "stem fly",
+      "tana makkhi"
+    ]
+  },
+  {
+    "term_en": "aphid",
+    "term_hi": "माहू",
+    "term_mr": "मावा",
+    "category": "pest",
+    "aliases": [
+      "aphid",
+      "mahu",
+      "mava"
+    ]
+  },
+  {
+    "term_en": "termite",
+    "term_hi": "दीमक",
+    "term_mr": "उधई",
+    "category": "pest",
+    "aliases": [
+      "termite",
+      "deemak",
+      "udhai"
+    ]
+  },
+  {
+    "term_en": "yellow mosaic",
+    "term_hi": "पीला मोज़ेक",
+    "term_mr": "पिवळा मोझॅक",
+    "category": "disease",
+    "aliases": [
+      "yellow mosaic",
+      "mosaic"
+    ]
+  },
+  {
+    "term_en": "leaf curl",
+    "term_hi": "पत्ती मरोड़",
+    "term_mr": "पाने गुंडाळणे",
+    "category": "disease",
+    "aliases": [
+      "leaf curl",
+      "patti marod"
+    ]
+  },
+  {
+    "term_en": "blight",
+    "term_hi": "झुलसा",
+    "term_mr": "करपा",
+    "category": "disease",
+    "aliases": [
+      "blight",
+      "jhulsa",
+      "karpa"
+    ]
+  },
+  {
+    "term_en": "wilt",
+    "term_hi": "उकठा",
+    "term_mr": "मर",
+    "category": "disease",
+    "aliases": [
+      "wilt",
+      "uktha",
+      "mar"
+    ]
+  },
+  {
+    "term_en": "powdery mildew",
+    "term_hi": "चूर्णिल आसिता",
+    "term_mr": "भुरी",
+    "category": "disease",
+    "aliases": [
+      "powdery mildew",
+      "mildew",
+      "bhuri"
+    ]
+  },
+  {
+    "term_en": "root rot",
+    "term_hi": "जड़ सड़न",
+    "term_mr": "मुळकुज",
+    "category": "disease",
+    "aliases": [
+      "root rot",
+      "jad sadan",
+      "mul kuj"
+    ]
+  },
+  {
+    "term_en": "yellow leaves",
+    "term_hi": "पीले पत्ते",
+    "term_mr": "पिवळी पाने",
+    "category": "symptom",
+    "aliases": [
+      "yellow leaves",
+      "yellowing",
+      "peele patte",
+      "pivli pane"
+    ]
+  },
+  {
+    "term_en": "spots",
+    "term_hi": "धब्बे",
+    "term_mr": "ठिपके",
+    "category": "symptom",
+    "aliases": [
+      "spots",
+      "dhabbe",
+      "thipke"
+    ]
+  },
+  {
+    "term_en": "wilting",
+    "term_hi": "मुरझाना",
+    "term_mr": "कोमेजणे",
+    "category": "symptom",
+    "aliases": [
+      "wilting",
+      "murjhana",
+      "komejne"
+    ]
+  },
+  {
+    "term_en": "pesticide",
+    "term_hi": "कीटनाशक",
+    "term_mr": "कीटकनाशक",
+    "category": "chemical",
+    "aliases": [
+      "pesticide",
+      "insecticide",
+      "keetnashak",
+      "kitaknashak"
+    ]
+  },
+  {
+    "term_en": "fungicide",
+    "term_hi": "फफूंदनाशक",
+    "term_mr": "बुरशीनाशक",
+    "category": "chemical",
+    "aliases": [
+      "fungicide",
+      "phaphundnashak"
+    ]
+  },
+  {
+    "term_en": "fertilizer",
+    "term_hi": "उर्वरक",
+    "term_mr": "खत",
+    "category": "input",
+    "aliases": [
+      "fertiliser",
+      "khad",
+      "urvarak"
+    ]
+  },
+  {
+    "term_en": "urea",
+    "term_hi": "यूरिया",
+    "term_mr": "युरिया",
+    "category": "input",
+    "aliases": [
+      "urea",
+      "yuria"
+    ]
+  },
+  {
+    "term_en": "DAP",
+    "term_hi": "डीएपी",
+    "term_mr": "डीएपी",
+    "category": "input",
+    "aliases": [
+      "dap",
+      "di-ammonium phosphate"
+    ]
+  },
+  {
+    "term_en": "neem oil",
+    "term_hi": "नीम तेल",
+    "term_mr": "निंब तेल",
+    "category": "input",
+    "aliases": [
+      "neem oil",
+      "neem tel",
+      "nimb tel"
+    ]
+  },
+  {
+    "term_en": "dosage",
+    "term_hi": "मात्रा",
+    "term_mr": "मात्रा",
+    "category": "safety",
+    "aliases": [
+      "dose",
+      "dosage",
+      "matra"
+    ]
+  },
+  {
+    "term_en": "PM-KISAN",
+    "term_hi": "पीएम किसान सम्मान निधि",
+    "term_mr": "पीएम किसान सन्मान निधी",
+    "category": "scheme",
+    "aliases": [
+      "pm kisan",
+      "pm-kisan",
+      "kisan samman nidhi"
+    ]
+  },
+  {
+    "term_en": "PMFBY",
+    "term_hi": "प्रधानमंत्री फसल बीमा योजना",
+    "term_mr": "पंतप्रधान पीक विमा योजना",
+    "category": "scheme",
+    "aliases": [
+      "pmfby",
+      "crop insurance",
+      "fasal bima",
+      "pik vima"
+    ]
+  },
+  {
+    "term_en": "Kisan Credit Card",
+    "term_hi": "किसान क्रेडिट कार्ड",
+    "term_mr": "किसान क्रेडिट कार्ड",
+    "category": "scheme",
+    "aliases": [
+      "kcc",
+      "kisan credit card"
+    ]
+  },
+  {
+    "term_en": "Soil Health Card",
+    "term_hi": "मृदा स्वास्थ्य कार्ड",
+    "term_mr": "माती आरोग्य कार्ड",
+    "category": "scheme",
+    "aliases": [
+      "soil health card",
+      "shc",
+      "mrida swasthya card"
+    ]
+  },
+  {
+    "term_en": "PMKSY",
+    "term_hi": "प्रधानमंत्री कृषि सिंचाई योजना",
+    "term_mr": "पंतप्रधान कृषी सिंचन योजना",
+    "category": "scheme",
+    "aliases": [
+      "pmksy",
+      "irrigation scheme"
+    ]
+  },
+  {
+    "term_en": "e-NAM",
+    "term_hi": "ई-नाम",
+    "term_mr": "ई-नाम",
+    "category": "market",
+    "aliases": [
+      "enam",
+      "e-nam",
+      "national agriculture market"
+    ]
+  },
+  {
+    "term_en": "KVK",
+    "term_hi": "कृषि विज्ञान केंद्र",
+    "term_mr": "कृषी विज्ञान केंद्र",
+    "category": "institution",
+    "aliases": [
+      "kvk",
+      "krishi vigyan kendra"
+    ]
+  },
+  {
+    "term_en": "Kisan Call Centre",
+    "term_hi": "किसान कॉल सेंटर",
+    "term_mr": "शेतकरी कॉल सेंटर",
+    "category": "institution",
+    "aliases": [
+      "kisan call centre",
+      "kisan call center",
+      "kcc helpline"
+    ]
+  },
+  {
+    "term_en": "mandi",
+    "term_hi": "मंडी",
+    "term_mr": "बाजार",
+    "category": "market",
+    "aliases": [
+      "mandi",
+      "market",
+      "bazar"
+    ]
+  },
+  {
+    "term_en": "price",
+    "term_hi": "भाव",
+    "term_mr": "भाव",
+    "category": "market",
+    "aliases": [
+      "price",
+      "rate",
+      "bhav",
+      "daam"
+    ]
+  },
+  {
+    "term_en": "weather",
+    "term_hi": "मौसम",
+    "term_mr": "हवामान",
+    "category": "weather",
+    "aliases": [
+      "weather",
+      "mausam",
+      "havaman"
+    ]
+  },
+  {
+    "term_en": "rain",
+    "term_hi": "बारिश",
+    "term_mr": "पाऊस",
+    "category": "weather",
+    "aliases": [
+      "rain",
+      "barish",
+      "paus"
+    ]
+  },
+  {
+    "term_en": "Maharashtra",
+    "term_hi": "महाराष्ट्र",
+    "term_mr": "महाराष्ट्र",
+    "category": "place",
+    "aliases": [
+      "maharashtra"
+    ]
+  },
+  {
+    "term_en": "Nashik",
+    "term_hi": "नाशिक",
+    "term_mr": "नाशिक",
+    "category": "place",
+    "aliases": [
+      "nasik",
+      "nashik",
+      "नाशिकमध्ये",
+      "नाशिकात"
+    ]
+  },
+  {
+    "term_en": "Pune",
+    "term_hi": "पुणे",
+    "term_mr": "पुणे",
+    "category": "place",
+    "aliases": [
+      "pune",
+      "पुण्यात",
+      "पुण्याचे"
+    ]
+  },
+  {
+    "term_en": "Nagpur",
+    "term_hi": "नागपुर",
+    "term_mr": "नागपूर",
+    "category": "place",
+    "aliases": [
+      "nagpur",
+      "नागपुरात",
+      "नागपूरचे"
+    ]
+  },
+  {
+    "term_en": "Amravati",
+    "term_hi": "अमरावती",
+    "term_mr": "अमरावती",
+    "category": "place",
+    "aliases": [
+      "amravati",
+      "अमरावतीत",
+      "अमरावतीमध्ये"
+    ]
+  },
+  {
+    "term_en": "Latur",
+    "term_hi": "लातूर",
+    "term_mr": "लातूर",
+    "category": "place",
+    "aliases": [
+      "latur",
+      "लातूरमध्ये",
+      "लातूरात"
+    ]
+  },
+  {
+    "term_en": "Kolhapur",
+    "term_hi": "कोल्हापुर",
+    "term_mr": "कोल्हापूर",
+    "category": "place",
+    "aliases": [
+      "kolhapur",
+      "कोल्हापुरात",
+      "कोल्हापुरातील"
+    ]
+  },
+  {
+    "term_en": "Solapur",
+    "term_hi": "सोलापुर",
+    "term_mr": "सोलापूर",
+    "category": "place",
+    "aliases": [
+      "solapur",
+      "sholapur",
+      "सोलापुरात",
+      "सोलापुरातील"
+    ]
+  },
+  {
+    "term_en": "Jalgaon",
+    "term_hi": "जलगांव",
+    "term_mr": "जळगाव",
+    "category": "place",
+    "aliases": [
+      "jalgaon",
+      "जळगावात",
+      "जळगावातील"
+    ]
+  },
+  {
+    "term_en": "Satara",
+    "term_hi": "सतारा",
+    "term_mr": "सातारा",
+    "category": "place",
+    "aliases": [
+      "satara",
+      "साताऱ्यात",
+      "साताऱ्यातील"
+    ]
+  },
+  {
+    "term_en": "Sangli",
+    "term_hi": "सांगली",
+    "term_mr": "सांगली",
+    "category": "place",
+    "aliases": [
+      "sangli",
+      "सांगलीत",
+      "सांगलीतील"
+    ]
+  },
+  {
+    "term_en": "Ahmednagar",
+    "term_hi": "अहमदनगर",
+    "term_mr": "अहमदनगर",
+    "category": "place",
+    "aliases": [
+      "ahmednagar",
+      "ahilyanagar",
+      "अहमदनगरात",
+      "अहमदनगरातील"
+    ]
+  },
+  {
+    "term_en": "Akola",
+    "term_hi": "अकोला",
+    "term_mr": "अकोला",
+    "category": "place",
+    "aliases": [
+      "akola",
+      "अकोल्यात",
+      "अकोल्यातील"
+    ]
+  },
+  {
+    "term_en": "Yavatmal",
+    "term_hi": "यवतमाल",
+    "term_mr": "यवतमाळ",
+    "category": "place",
+    "aliases": [
+      "yavatmal",
+      "यवतमाळात",
+      "यवतमाळातील"
+    ]
+  }
+]
